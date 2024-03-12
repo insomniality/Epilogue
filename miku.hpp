@@ -10,8 +10,8 @@ class Miku
 		void learning(std::string songName) const;
 		void dancing() const;
 	public:	
-		std::string getName() const;
-		int getLvl() const;
+		std::string getName();
+		int getLvl();
 	public:
 		Miku();
 		Miku(const Miku & obj);

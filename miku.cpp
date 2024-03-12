@@ -17,17 +17,19 @@ void Miku::dancing() const
 
 //////////////////////
 
-std::string Miku::getName() const
+std::string Miku::getName() //const
 {
 	return (_name);
 }
 
-int Miku::getLvl() const
+int Miku::getLvl() //const
 {
 	return (_intensityLvl);
 }
 
 //////////////////////
+//test
+
 
 Miku::Miku() : _name("Miku"), _intensityLvl(0)
 {
