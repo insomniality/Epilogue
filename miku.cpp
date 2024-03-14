@@ -2,12 +2,12 @@
 
 void Miku::singing() const
 {
-	std::cout << _name << " is singin" << std::endl;
+	std::cout << _name << " is singing" << std::endl;
 }
 
 void Miku::learning(std::string songName) const
 {
-	std::cout << _name << " is learnin the song called " << songName << std::endl;
+	std::cout << _name << " is learning the song called " << songName << std::endl;
 }
 
 void Miku::dancing() const
@@ -17,12 +17,12 @@ void Miku::dancing() const
 
 //////////////////////
 
-std::string Miku::getName() //const
+std::string Miku::getName() const //const petqa
 {
 	return (_name);
 }
 
-int Miku::getLvl() //const
+int Miku::getLvl() const
 {
 	return (_intensityLvl);
 }
